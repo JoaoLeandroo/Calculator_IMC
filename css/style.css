@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+:root {
+    --blueDark: #0B0B61;
+    --blueDark2: #0404B4;
+    --blue3: #0101DF;
+}
+
+body {
+    background-color: var(--blueDark);
+}
+.app {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem auto;
+    background-color: var(--blueDark2);
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem var(--blue3);
+}
+.section {
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    border: none;
+    outline: 0;
+    width: 95%;
+    height: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.9rem;
+    margin-top: 1rem;
+    background-color: #DF7401;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: orange;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0.1rem 0.1rem 0.1rem orangered;
+}
+
+.section__orientacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__orientacao h3 {
+    font-size: 2rem;
+    color: #DF7401;
+}
+
+.section__orientacao p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 0.2rem;
+    text-align: center;
+}
+span {
+    color: #DF7401;
+}
